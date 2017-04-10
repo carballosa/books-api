@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
 
 var BookSchema = new mongoose.Schema({ 
-    title: {type: String},
-    author: {type: String},
-    genre: {type: String},
+    title: String,
+    author: String,
+    genre: String,
     read: {type: Boolean, default:false}
 });
 
