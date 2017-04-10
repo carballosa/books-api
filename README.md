@@ -9,5 +9,3 @@ Route | HTTP Verb | Description
 /api/books/:book_id | PUT | Update a book with new info.
 /api/books/:book_id | PUT | Update a book with new info.
 /api/books/:book_id | DELETE | Delete a book.
-
-test a change
