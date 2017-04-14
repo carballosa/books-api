@@ -1,6 +1,6 @@
-module.exports = function () {
+var Book = require('../models/book-model');
 
-    var Book = require('../models/book-model');
+module.exports = function () {
 
     function post(req, res) {
         var book = new Book(req.body);
